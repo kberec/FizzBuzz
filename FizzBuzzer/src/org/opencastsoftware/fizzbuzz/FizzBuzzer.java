@@ -13,7 +13,9 @@ public class FizzBuzzer {
 	 */
 	public void print(int fromRange, int toRange) {
 		for (int i = fromRange; i <= toRange; i++) {
-			if (i % 3 == 0 && i % 5 == 0)
+			if (String.valueOf(i).contains("3")) 
+				System.out.print("lucky");				
+			else if (i % 3 == 0 && i % 5 == 0)
 				System.out.print("fizzbuzz");
 			else if (i % 3 == 0)
 				System.out.print("fizz");

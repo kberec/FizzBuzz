@@ -27,7 +27,7 @@ public class FizzBuzzerTest {
 	@Test
 	public void test() {
 		fizzBuzzer.print(1, 20);
-		String expectedPrintout = "1 2 fizz 4 buzz fizz 7 8 fizz buzz 11 fizz 13 14 fizzbuzz 16 17 fizz 19 buzz ";
+		String expectedPrintout = "1 2 lucky 4 buzz fizz 7 8 fizz buzz 11 fizz lucky 14 fizzbuzz 16 17 fizz 19 buzz ";
 		Assert.assertEquals(expectedPrintout, outContent.toString());		
 	}
 
